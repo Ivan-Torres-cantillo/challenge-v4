@@ -112,5 +112,5 @@ btnDesencriptar.addEventListener("click", e=>{
         e.preventDefault();
         let copiar = respuesta;
         copiar.select();
-        ClipboardEvent("copy");
+        document.execCommand("copy");
     })
